@@ -1,0 +1,41 @@
+h3, h5 {
+    margin: 5px 0px;
+}
+
+p {
+    margin: 8px 0px;
+}
+
+.meniu-v2 > img {
+    position: relative;
+    width: 100vw;
+    display: block;
+    margin-bottom: -88px;
+    z-index: -1;
+}
+
+.meniu-v2-title {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0px 90px 0px 0px;
+    background-color: white;
+}
+
+.meniu-v2-title > img {
+    width: 25px;
+    margin-right: 25px;
+    display: block;
+}
+
+.meniu-v2-options {
+    width: 90vw;
+    background-color: red;
+    margin: 0px auto;
+}
+
+.options-container {
+    background-color: greenyellow;
+    padding: 1px 20px;
+    border-radius: 12px ;
+}

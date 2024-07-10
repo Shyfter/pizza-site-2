@@ -1,0 +1,14 @@
+.acasa {
+    width: 90vw;
+    margin: 100px auto 80px auto;
+}
+
+.acasa-title {
+    font-size: 1.7rem;
+    color: rgb(51, 50, 50);
+}
+
+.acasa-text {
+    font-size: 1.1rem;
+    color: rgb(103, 102, 102);
+}

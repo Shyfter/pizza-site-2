@@ -1,0 +1,9 @@
+.copyright {
+    width: 80vw;
+    margin: 0px auto;
+}
+
+.copyright > p {
+    text-align: center;
+    color: rgb(109, 109, 109);
+}

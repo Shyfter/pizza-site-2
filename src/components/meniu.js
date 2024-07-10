@@ -4,6 +4,8 @@ import "./meniu.css";
 export default function Meniu(props) {
 
     function setPageProperly(args) {
+            const pageScroll = window.scrollY;
+            console.log(pageScroll)
             props.setPage(args)
     }
 
@@ -11,6 +13,9 @@ export default function Meniu(props) {
         <div id="meniu" className="meniu-container">
             <h2 className="meniu-title">Meniu</h2>
             <div className="meniu-optiuni">
+                <div className="pizza" onClick={()=>{setPageProperly("Pizza")}}>
+                    <p>PIZZA</p>
+                </div>
                 <div className="ciorbe" onClick={()=>{setPageProperly("Ciorbe")}}>
                     <p>CIORBE</p>
                 </div>
@@ -25,9 +30,6 @@ export default function Meniu(props) {
                 </div>
                 <div className="fast-food" onClick={()=>{setPageProperly("Fast Food")}}>
                     <p>FAST FOOD</p>
-                </div>
-                <div className="pizza" onClick={()=>{setPageProperly("Pizza")}}>
-                    <p>PIZZA</p>
                 </div>
                 <div className="paste" onClick={()=>{setPageProperly("Paste")}}>
                     <p>PASTE</p>

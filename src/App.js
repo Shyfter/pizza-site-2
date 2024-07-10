@@ -12,10 +12,14 @@ import MeniuV2 from './components/meniu-v2';
 function App() {
 
   const [pageRender, setPageRender] = React.useState("Home")
+  const [pageScroll, setPageScroll] = React.useState(0)
+
+  window.scrollY = pageScroll
   
-  function setPage(args) {
+  function setPage(args, scroll) {
       window.scrollTo(0 ,0)
       setPageRender(args)
+      setPageScroll(scroll)
 
   }
 

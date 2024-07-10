@@ -7,7 +7,7 @@ export default function MeniuV2(props) {
     return (
         <>
             <div className="meniu-v2">
-                <img src="./pics/background-baraca.jpg" alt="logo"></img>
+                <img src="./pics/pizza-pepsi-commercial.jpg" alt="logo"></img>
                 <div className="meniu-v2-title" onClick={()=>{props.setPage("Home")}}>
                     <img src="./pics/back.png" alt="back"></img>
                     <h2>{props.optionTitle}</h2>
